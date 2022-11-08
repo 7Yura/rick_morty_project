@@ -1,0 +1,14 @@
+.characters {
+  padding: 30px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.text{
+  color: #21211d;
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+}

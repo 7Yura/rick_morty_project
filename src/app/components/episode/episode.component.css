@@ -1,0 +1,49 @@
+.episode {
+  width: 200px;
+  height: 200px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgb(37, 77, 47) none repeat scroll 0 0;
+  margin: 0.75rem;
+  color: rgb(255, 255, 255);
+
+}
+
+.episode .section {
+  display: flex;
+  justify-content: center;
+
+}
+
+.episode span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.episode span, .episode h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.episode .text-gray {
+  color: rgb(164, 250, 147);
+}
+
+.episode .button {
+  width: calc(100% - 16px);
+  margin: 10px auto 0;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  border-radius: 50px;
+  color: rgb(60, 62, 68);
+  background-color: #a4fa93;
+}
+
+.episode .button:hover {
+  cursor: pointer;
+  background-color: #ffeccd;
+
+}
