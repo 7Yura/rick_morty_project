@@ -1,7 +1,10 @@
+
 header>nav {
     background-color: rgba(0, 0, 0, 0.95);
+  width: 100%;
   height: 50px;
-  /*position: fixed;*/
+
+
 
 }
 navbar-nav ms-5 me-auto{

@@ -15,7 +15,8 @@ import {MainLayoutComponent} from "./layouts";
 import {MatIconModule} from "@angular/material/icon";
 import {RouterModule} from "@angular/router";
 import {NavBarComponent} from "./components/nav-bar/nav-bar.component";
-import { HiComponent } from './components/hi/hi.component';
+
+
 
 
 @NgModule({
@@ -27,7 +28,7 @@ import { HiComponent } from './components/hi/hi.component';
     EpisodesComponent,
     MainLayoutComponent,
     NavBarComponent,
-    HiComponent
+
 
   ],
   imports: [
