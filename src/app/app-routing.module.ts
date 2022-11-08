@@ -6,8 +6,10 @@ import {MainLayoutComponent} from "./layouts";
 import {EpisodeResolver} from "./services";
 import {EpisodesComponent} from "./components/episodes/episodes.component";
 import {CharactersComponent} from "./components/characters/characters.component";
+import {NavBarComponent} from "./components/nav-bar/nav-bar.component";
 
 const routes: Routes = [
+  { path: '', component: NavBarComponent },
   {
     path: '', component: MainLayoutComponent, children: [
       {path: '', redirectTo: 'episodes', pathMatch: 'full'},

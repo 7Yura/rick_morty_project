@@ -11,8 +11,8 @@
 
 .character .info {
 
-  width: 300px;
-
+  width: 277px;
+background: #56a145;
   padding: 0.75rem;
   color: rgb(33, 33, 29);
   /*display: flex;*/
@@ -73,5 +73,6 @@
 }
 
 .character .text-gray {
-  color: rgb(158, 158, 158);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
 }

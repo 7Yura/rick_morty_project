@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%;  }
-body { margin: 0; }
+ /*body { height: 100%;  }*/
+body { height: 100%; margin: 0;
+                    background: url('https://i.ytimg.com/vi/7i_7Dx3wWlU/maxresdefault.jpg') no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    background-attachment: fixed;
+                    transition: background 0.5s linear;
+
+                  }
