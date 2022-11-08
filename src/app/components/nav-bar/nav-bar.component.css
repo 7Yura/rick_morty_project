@@ -1,0 +1,28 @@
+header>nav {
+    background-color: rgba(0, 0, 0, 0.95);
+  height: 50px;
+  /*position: fixed;*/
+
+}
+navbar-nav ms-5 me-auto{
+  display: flex;
+
+}
+header>nav ul>li {
+    font-weight: bold;
+  display: flex;
+}
+cont{
+  display: flex;
+  font-size: 20px;
+
+}
+a{
+  margin-left: 20px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+h3{
+  color: white;
+}
